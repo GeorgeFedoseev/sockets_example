@@ -22,6 +22,10 @@ namespace client
             client.connnect();
             client.beginReceiving();
             client.send("Hello, server!");
+            while (true) {
+                string str = Console.ReadLine();
+                client.send(str);
+            }
         }
 
         protected override void receive(string message)

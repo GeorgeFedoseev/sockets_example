@@ -19,13 +19,17 @@ namespace server
         static void Main(string[] args)
         {
             Program server= new Program();
-            server.startServer();            
+            server.startServer();
+            while (true){
+                string str = Console.ReadLine();
+                server.sendToAll(str);
+            }
         }
 
         protected override void receive(Socket r_client, string message)
         {
  	        Console.WriteLine("From client: {0}", message);
-            base.sendToAll("Hello, my clients!");
+            //base.sendToAll("Hello, my clients!");
         }         
     }
 }

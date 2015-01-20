@@ -3,3 +3,4 @@ S:\Projects\socketsApp\client\bin\Debug\client.exe
 S:\Projects\socketsApp\client\bin\Debug\client.pdb
 S:\Projects\socketsApp\client\obj\Debug\client.exe
 S:\Projects\socketsApp\client\obj\Debug\client.pdb
+S:\Projects\socketsApp\client\obj\Debug\client.csprojResolveAssemblyReference.cache
